@@ -14,7 +14,8 @@ function Profile() {
   return (
       <div className='center'>
         <div className='profile'>
-          <h1>Profile</h1>
+          <h1>Profile</h1><br/>
+          <a href='testpage'><button>Go to testpage</button></a>
           <p>
             <strong>Name: </strong>{user?.name}
           </p>

@@ -10,6 +10,8 @@ const userSlice = createSlice({
   initialState,
   reducers: {
     signIn: (state, action) => {
+      console.log('Object.keys(action.payload): ' + Object.keys(action.payload));
+      
       state.user = {...state.user, ...action.payload}
       state.isLoggedIn = true
     },

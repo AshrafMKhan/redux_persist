@@ -19,7 +19,7 @@ function SignIn(){
     <div className='center'>
       <div className='signin'>
         <h1>Sign In</h1>
-        <form onSubmit={signin} name='signin_form'>
+        <form onSubmit={signin} action="testpage" name='signin_form'>
         <input 
           type='text'
           value={name}
